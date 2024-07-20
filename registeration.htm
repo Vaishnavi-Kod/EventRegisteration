@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Event Registeration </title>
+        <style>
+            body{
+                background: salmon;
+            }
+            form{
+                text-align: left;
+            }
+            label{
+                font-weight:bold;
+            }
+        </style>
+    </head>
+    <body>
+        <form action="/submit.php">
+        <h1>Event Registeration Form</h1>
+        <h2><u>Attende Information</u></h2>
+        <h5>Please fill the name and contact of attende</h5>
+        <label for="name">Name:</label>
+        <select name="prefix">
+            <option value="Mr">Mr.</option>
+            <option value="Ms">Ms.</option>
+        </select>
+        <input type="name" placeholder="First Name"required>
+        <input type="name" placeholder="Last Name">
+        <br>
+        <br>
+        <label for="email">Email Address:</label>
+        <input type="email" placeholder="email address">
+        <br>
+        <br>
+        <label for="phone number">Phone Number:</label>
+        <input type="number" placeholder="phone number">
+        <br>
+        <br>
+        <p>Will you have guest with you?</p>
+        <input type="radio" value="yes" >yes</input>
+        <input type="radio" value="no">no</input>
+        <br>
+        <br>
+        <label for="name">Guest Name:</label>
+        <select name="prefix">
+            <option value="Mr">Mr.</option>
+            <option value="Ms">Ms.</option>
+        </select>
+        <input type="name"placeholder="First Name">
+        <input type="name"placeholder="Last Name">
+        <br>
+        <br>
+        <label for="email">Email Address:</label>
+        <input type="email" placeholder="email address">
+        <br>
+        <br>
+        <label for="phone number">Phone Number:</label>
+        <input type="number" placeholder="phone number">
+        <br>
+        <br>
+        <p>Would you like to be updated the upcoming events?</p>
+        <input type="radio" value="yes" >yes</input>
+        <input type="radio" value="no">no</input>
+        <br>
+        <br>
+        <input type="submit">
+    </body>
+</html>
